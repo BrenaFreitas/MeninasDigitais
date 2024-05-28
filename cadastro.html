@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./style/formulario.css">
+    <link rel="stylesheet" href="./style/header-footer.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="">
+    </header>
+    <main>
+        <form class="formulario-cadastrar">
+            <p>Bem-vindo(a)!</p>
+            
+            <label>Nome:</label><br>
+            <input id="nome" type="text"><br>
+            
+            <label>Email:</label><br>
+            <input id="email" type="text"><br>
+            
+            <label>Idade:</label><br>
+            <input id="idade" type="number"><br>
+            
+            <label>Senha:</label><br>
+            <input id ="senha" type="password"><br>
+            
+            <label>Confirmar Senha:</label><br>
+            <input id="confsenha" type="password"><br>
+            
+            <a class="botao-cadastrar" id="botao-cadastrar" onclick="dialogo()">CADASTRO</a>
+            
+        </form>
+    </main>   
+    
+    
+    <script src="./js/cadastrar.js"></script>
+</body>
+</html>
