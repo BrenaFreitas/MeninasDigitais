@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background-color: #FEC1FF;
+    color: #000000;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0 50px 0;
+    font-family: "Inria Serif";
+    font-weight: 700;
+    font-size: 30px;
+}
+.section-pesquisa{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.bg-pesquisa{
+    background-color: #FFF84E;
+    width: 85%;
+    height: 150px;
+    padding: 20px;
+    top: 150px;
+    border-radius: 40px 0 0 40px ;
+    position: absolute;
+    left: 333px;
+    top: 200px;
+    z-index: -1;
+}
+
+.div-pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.div-pesquisa input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 50px;
+    border: #000000 solid 1px;
+    border-radius: 30px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border: #000000 solid 1px;
+    border-radius: 30px;
+    background-color: #959BFF;
+    color: #000;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #F9F9F9;
+    color: #000;
+}
+
+.section-conteudo{
+    padding: 50px;
+    gap: 50px;
+
+}
+
+.section-conteudo .div-curso{
+    display:flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.section-conteudo .div-curso .div-plano-negocio, .div-app,.div-pitch  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8535AB;
+    border-radius: 20px;
+    width: 400px;
+    height: 550px;
+    background-color: #FFFFFF;
+    font-size:20px;
+
+   
+}
+.section-conteudo .div-curso .div-plano-negocio a, .div-app a,.div-pitch a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #8535AB;
+    border-radius: 50px ;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    gap: 10px;
+    
+}
+
+.div-curso img{
+    width: 300px;
+    height: 300px;
+}
+

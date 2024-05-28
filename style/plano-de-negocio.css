@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #FD83FF80;
+    overflow-x: hidden;
+}
+
+.div-titulo {
+    position: relative;
+    text-align: center;
+   
+}
+
+.div-retangulo {
+    position: relative;
+    left: 10%;
+    width: 80vw;
+    height: 35vh;
+    padding-top: 100px;
+}
+.div-texto {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: -330px;
+    margin-left: 580px;
+    
+    
+}
+.div-texto h1{
+    font-family: "Open Sans";
+    font-size: 50px;
+    padding-top: 20px;
+    color: #8535AB;
+}
+.div-texto img{
+    padding-left: 300px;
+    
+}
+.div-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 350px 0px 350px 0px ;
+    gap: 30px;
+    width: 10vw;
+    height: 80vh;
+    position: relative;
+    left: 35%;
+}
+.div-conteudo span{
+    position: relative;
+    top: -50%;
+    left: 10%;
+    font-size: 40px;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.janela-informacoes{
+    display:none;
+}
+.img-plano-de-negocio{
+    width: 250px;
+    height: 250px;
+    
+}
