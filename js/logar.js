@@ -1,4 +1,4 @@
-function logar() {
+function popupLogar() {
     var caixa = document.createElement("div");
     var text = document.createTextNode("Você efetuou o login com sucesso");
     caixa.appendChild(text);
@@ -23,10 +23,20 @@ function logar() {
 
 }
 
+function logar(){
+    
+    var storedEmail = localStorage.getItem('email');
+    
+    var storedSenha = localStorage.getItem('senha');
+    
+    var userEmail = document.getElementById('emailUsuario');
+    
+    var userSenha = document.getElementById('senhaUsuario');
+    
+    if(storedEmail.value == userEmail && storedSenha.value == userSenha){
 
-document.getElementById("botao-logar").addEventListener("click", function(event) {
- 
-    logar();
-
-    event.target.removeEventListener(event.type, arguments.callee);
-});
+            popupLogar();
+    }else{
+        alert('Erro ao fazer login');
+    }
+}
